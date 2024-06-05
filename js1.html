@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giải Phương Trình</title>
+    <link rel="stylesheet" href="js1.css"> <!-- Liên kết đến file CSS -->
+</head>
+<body>
+    <div id="equationSolver">
+        <div class="A">
+            <label for="coefficientA">Hệ số a:&nbsp;</label>
+            <input type="number" id="coefficientA">
+        </div>
+        <div class="B">
+            <label for="coefficientB">Hệ số b:&nbsp;</label>
+            <input type="number" id="coefficientB">
+        </div>
+        <button onclick="solveEquation()">Giải PT</button>
+    </div>
+    <div class="output">
+        <div id="equationDisplay">Phương trình: </div>
+        <div id="solutionDisplay">Có nghiệm: </div>
+    </div>
+    <script src="js1.js"></script> <!-- Liên kết đến file JavaScript -->
+</body>
+</html>
